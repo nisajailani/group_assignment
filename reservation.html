@@ -1,0 +1,198 @@
+<html>
+<head>
+<title>TeaAmor Cafe</title>
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+<style>
+    body {font-family: "Times New Roman", Georgia, Serif;}
+    h1, h2, h3, h4, h5, h6 
+    {
+      font-family: "Playfair Display";
+      letter-spacing: 5px;
+    }
+
+    body
+    {
+      background-image: url('image/back\ paper\(1\).jpg'); /* Replace with your image path */
+      background-size: cover; /* Ensure the background covers the entire page */
+      background-position: center; /* Center the image */
+      background-attachment: fixed;
+    }
+
+    .reservation-form {
+        background: #fff;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 4px 6px rgba(188, 116, 7, 0.977);
+        width: 80%; /* Set width to 80% */
+        max-width: 600px; /* Optional: Set a max-width to prevent it from becoming too wide on larger screens */
+        margin: 0 auto; /* Center horizontally */
+    }
+    .reservation-form h1 {
+        text-align: center;
+        color: #333;
+        margin-bottom: 20px;
+    }
+    .reservation-form label {
+        display: block;
+        margin: 10px 0 5px;
+        font-size: 14px;
+        color: #555;
+    }
+    .reservation-form input, 
+    .reservation-form select, 
+    .reservation-form button {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 15px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        font-size: 14px;
+    }
+    .reservation-form button {
+        background-color: #333;
+        color: #fff;
+        border: none;
+        cursor: pointer;
+    }
+    .reservation-form button:hover {
+        background-color: #555;
+    }
+    
+    footer
+    {
+        margin-top: auto;
+        padding: 10px 0;
+        background-color: rgba(128, 125, 125, 0.833);
+        color: white;
+        width: 100%;
+        text-align: center;
+        font-size: 3em;
+    }
+
+    .last-update {
+        font-size: 1em;
+        margin-top: 5px;
+    }
+
+    /* Center the reservation form container */
+    .w3-row.w3-padding-64 {
+        display: flex;
+        justify-content: center; /* Center the form within the row */
+        align-items: center;
+    }
+
+    .w3-col.l12.w3-padding-large {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%; /* Full width for the container */
+    }
+
+</style>
+
+</head>
+
+<link rel="stylesheet" href="css/style.css">
+
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-padding w3-card" style="letter-spacing:4px;">
+    <a href="index.html" class="w3-bar-item w3-button" style="color: #7b4e1b;">Tea Amor Cafe</a>
+    <!-- Right-sided navbar links. Hide them on small screens -->
+    <div class="w3-right w3-hide-small">
+      <a href="#about" class="w3-bar-item w3-button">About</a>
+      <a href="#logo" class="w3-bar-item w3-button">Logo</a>
+      <a href="#organization-chart" class="w3-bar-item w3-button">Organization Chart</a>
+      <a href="#hours-location" class="w3-bar-item w3-button">Hours & Location</a>
+      <a href="#menu" class="w3-bar-item w3-button">Menu</a>
+      <a href="#store" class="w3-bar-item w3-button">Store</a>
+      <a href="reservation.html" class="w3-bar-item w3-button">Reservation</a>
+      <a href="#contact" class="w3-bar-item w3-button">Contact</a>
+    </div>
+  </div>
+</div>
+
+<!-- Page content -->
+<div class="w3-content" style="max-width:1100px">
+
+  <hr>
+
+  <div class="w3-row w3-padding-64" id="reservation">
+      <div class="reservation">
+         <h1>Reservation</h1>
+         <p>Make a reservation to save more time!</p>
+      </div>
+  </div>
+
+  <hr>
+
+  <!-- Reservation -->
+  <div class="w3-row w3-padding-64" id="reservation">
+    <div class="w3-col l12 w3-padding-large">
+      <div class="reservation-form">
+        <h1>Book Table</h1>
+
+        <label for="date">Date</label>
+        <input type="date" id="date" name="date" required>
+
+        <label for="time">Time</label>
+        <select id="time" name="time" required>
+            <option value="9:00">9:00</option>
+            <option value="12:00">12:00</option>
+            <option value="15:00">15:00</option>
+            <option value="18:00">18:00</option>
+        </select>
+
+        <label for="people">People</label>
+        <select id="people" name="people" required>
+            <option value="1">1 person</option>
+            <option value="2">2 people</option>
+            <option value="3">3 people</option>
+            <option value="4">4 people</option>
+            <option value="5">5 people</option>
+        </select>
+
+        <label for="pax">How Many Pax</label>
+        <input type="number" id="pax" name="pax" min="1" max="20" placeholder="Enter number of pax" required>
+
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" placeholder="Your Name" required>
+
+        <label for="phone">Phone</label>
+        <input type="tel" id="phone" name="phone" placeholder="Your Phone Number" required>
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="Your Email Address" required>
+
+        <button type="submit">Book Table</button>
+      </div>
+    </div>
+  </div>
+
+<!-- End page content -->
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-brown w3-padding-32">
+ <p>&copy; 2024 TeaAmor Cafe Website</p>
+ <p class="last-update">
+   Last Updated: <span id="dateTime"></span>
+ </p>
+
+<script>
+ function updateDateTime() {
+   const now = new Date();
+   const dateTimeElement = document.getElementById('dateTime');
+   dateTimeElement.innerText = now.toLocaleString(); // Display date and time in locale format
+ }
+ setInterval(updateDateTime, 1000); // Update every second
+ updateDateTime(); // Initial call to set the time immediately
+</script>
+
+</footer>
+
+</body>
+</html>
