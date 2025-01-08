@@ -3,7 +3,7 @@ body {
     font-family: "Times New Roman", Georgia, Serif;
     margin: 0;
     padding: 0;
-    background-color: #f8f8f8;
+    background-color: #62390d;
     color: #333;
     line-height: 1.6;
 }
@@ -476,11 +476,6 @@ header h1 {
     background-color: #f9f9f9;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(188, 116, 7, 0.977);
-}
-
-#menu img {
-    border-radius: 10px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
 
 #menu h1 {
