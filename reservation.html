@@ -206,20 +206,20 @@
       <div class="reservation-form">
         <h1>Book Table</h1>
 
-        <form action="mailto:teaamorcafe@gmail.com?subject=Reservation" method="post" enctype="text/plain"></form>
-        <label for="date">Date</label>
-        <input type="date" id="date" name="date" required>
-
-        <label for="time">Time</label>
-        <select id="time" name="time" required>
+        <form action="mailto:teaamorcafe@gmail.com?subject=Table%20Reservation" method="POST" enctype="text/plain">
+          <label for="date">Date</label>
+          <input type="date" id="date" name="date" required>
+        
+          <label for="time">Time</label>
+          <select id="time" name="time" required>
             <option value="10:00">10:00</option>
             <option value="12:00">12:00</option>
             <option value="15:00">15:00</option>
             <option value="20:00">20:00</option>
-        </select>
-
-        <label for="people">People</label>
-        <select id="people" name="people" required>
+          </select>
+        
+          <label for="people">People</label>
+          <select id="people" name="people" required>
             <option value="1">1 person</option>
             <option value="2">2 people</option>
             <option value="3">3 people</option>
@@ -231,27 +231,28 @@
             <option value="9">9 people</option>
             <option value="10">10 people</option>
             <option value=">10">More than 10 people</option>
-        </select>
-
-        <label for="seating">Seating</label>
-        <select type="seating" id="seating" name="seating" required>
+          </select>
+        
+          <label for="seating">Seating</label>
+          <select id="seating" name="seating" required>
             <option value="Indoor 1">Indoor 1</option>
-            <option value="Indoor 1">Indoor 2</option>
+            <option value="Indoor 2">Indoor 2</option>
             <option value="Outdoor">Outdoor</option>
             <option value="Events">Events</option>
-        </select>
-
-        <label for="name">Name</label>
-        <input type="text" id="name" name="name" placeholder="Your Name" required>
-
-        <label for="phone">Phone</label>
-        <input type="tel" id="phone" name="phone" placeholder="Your Phone Number" required>
-
-        <label for="email">Email</label>
-        <input type="email" id="email" name="email" placeholder="Your Email Address" required>
-
-        <button type="submit">Book Table</button>
-      </form>
+          </select>
+        
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" placeholder="Your Name" required>
+        
+          <label for="phone">Phone</label>
+          <input type="tel" id="phone" name="phone" placeholder="Your Phone Number" required>
+        
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" placeholder="Your Email Address" required>
+        
+          <button type="submit">Book Table</button>
+        </form>
+        
       </div>
     </div>
   </div>
