@@ -1,0 +1,615 @@
+/* General Styling */
+body {
+    font-family: "Times New Roman", Georgia, Serif;
+    margin: 0;
+    padding: 0;
+    background-color: #62390d;
+    color: #333;
+    line-height: 1.6;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Playfair Display", serif;
+    letter-spacing: 5px;
+    margin: 10px 0;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+a:hover {
+    color: #555;
+}
+
+/* Navbar */
+.w3-top {
+    background-color: #ffffff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.w3-bar a {
+    padding: 10px 16px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.w3-bar a:hover {
+    background-color: #ddd;
+    color: #000;
+}
+
+/* Header */
+header {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+header img {
+    opacity: 0.8;
+}
+
+header h1 {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+/* About Section */
+#about {
+    background-color: #ffffff;
+    margin: 20px 0;
+    padding: 40px;
+    box-shadow: 0 2px 4px rgba(188, 116, 7, 0.977);
+    border-radius: 8px;
+}
+
+#about img {
+    border-radius: 10px;
+}
+
+#about h1, #about h5 {
+    text-align: center;
+}
+
+/* Logo Section */
+#logo {
+    margin: 20px 0;
+    padding: 40px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(188, 116, 7, 0.977);
+}
+
+#logo img {
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+#logo h1 {
+    text-align: center;
+}
+
+#logo h4 {
+    color: #555;
+}
+
+#logo p {
+    color: #777;
+}
+
+/* organization chart Section */
+#organization-chart {
+    margin: 20px 0;
+    padding: 40px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(188, 116, 7, 0.977);
+    
+}
+
+#organization-chart img {
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+#organization-chart h1 {
+    text-align: center;
+}
+
+#organization-chart h4 {
+    color: #555;
+}
+
+#organization-chart p {
+    color: #777;
+}
+
+/* Hours and location */
+#hours-location {
+    margin: 20px 0;
+    padding: 40px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(188, 116, 7, 0.977);
+}
+
+#hours-location img {
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+#hours-location h1 {
+    text-align: center;
+}
+
+#hours-location h4 {
+    color: #555;
+}
+
+#hours-location p {
+    color: #777;
+}
+
+/* Menu Section */
+#menu {
+    margin: 20px 0;
+    padding: 40px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(188, 116, 7, 0.977);
+}
+
+#menu img {
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+#menu h1 {
+    text-align: center;
+}
+
+#menu h4 {
+    color: #555;
+}
+
+#menu p {
+    color: #777;
+}
+
+/* store*/
+#store {
+    margin: 20px 0;
+    padding: 40px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(188, 116, 7, 0.977);
+}
+
+#store  img {
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+#store  h1 {
+    text-align: center;
+}
+
+#store  h4 {
+    color: #555;
+}
+
+#store  p {
+    color: #777;
+}
+
+/* reservation*/
+#reservation {
+    margin: 20px 0;
+    padding: 40px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(188, 116, 7, 0.977);
+}
+
+#reservation  img {
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+#reservation  h1 {
+    text-align: center;
+}
+
+#reservation  h4 {
+    color: #555;
+}
+
+#reservation  p {
+    color: #777;
+}
+
+/* Contact Section */
+#contact {
+    background-color: #ffffff;
+    padding: 40px;
+    margin: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(188, 116, 7, 0.977);
+}
+
+#contact h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#contact p {
+    color: #555;
+    margin: 10px 0;
+}
+
+#contact form input, 
+#contact form button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+#contact form button {
+    background-color: #555;
+    color: white;
+    cursor: pointer;
+    border: none;
+    font-weight: bold;
+}
+
+#contact form button:hover {
+    background-color: #333;
+}
+
+/* Footer */
+footer {
+    background-color: #f8f8f8;
+    padding: 20px;
+    text-align: center;
+    font-size: 14px;
+    color: #555;
+}
+
+footer a {
+    color: #555;
+    font-weight: bold;
+}
+
+footer a:hover {
+    color: #333;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .w3-col.m6, .w3-col.l6 {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    header h1 {
+        font-size: 20px;
+        padding: 5px 10px;
+    }
+
+    #menu h4 {
+        font-size: 18px;
+    }
+
+    #menu p {
+        font-size: 14px;
+    }
+}/* General Styling */
+body {
+    font-family: "Times New Roman", Georgia, Serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+    color: #333;
+    line-height: 1.6;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Playfair Display", serif;
+    letter-spacing: 5px;
+    margin: 10px 0;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+a:hover {
+    color: #555;
+}
+
+/* Navbar */
+.w3-top {
+    background-color: #ffffff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.w3-bar a {
+    padding: 10px 16px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.w3-bar a:hover {
+    background-color: #ddd;
+    color: #000;
+}
+
+/* Header */
+header {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+header img {
+    opacity: 0.8;
+}
+
+header h1 {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+/* About Section */
+#about {
+    background-color: #ffffff;
+    margin: 20px 0;
+    padding: 40px;
+    box-shadow: 0 2px 4px rgba(188, 116, 7, 0.977);
+    border-radius: 8px;
+}
+
+#about img {
+    border-radius: 10px;
+}
+
+#about h1, #about h5 {
+    text-align: center;
+}
+
+/* Logo Section */
+#logo {
+    margin: 20px 0;
+    padding: 40px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(188, 116, 7, 0.977);
+}
+
+#logo img {
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+#logo h1 {
+    text-align: center;
+}
+
+#logo h4 {
+    color: #555;
+}
+
+#logo p {
+    color: #777;
+}
+
+/* organization chart Section */
+#organization-chart {
+    margin: 20px 0;
+    padding: 40px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(188, 116, 7, 0.977);
+    
+}
+
+#organization-chart img {
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+#organization-chart h1 {
+    text-align: center;
+}
+
+#organization-chart h4 {
+    color: #555;
+}
+
+#organization-chart p {
+    color: #777;
+}
+
+/* Hours and location */
+#hours-location {
+    margin: 20px 0;
+    padding: 40px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(188, 116, 7, 0.977);
+}
+
+#hours-location img {
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+#hours-location h1 {
+    text-align: center;
+}
+
+#hours-location h4 {
+    color: #555;
+}
+
+#hours-location p {
+    color: #777;
+}
+
+/* Menu Section */
+#menu {
+    margin: 20px 0;
+    padding: 40px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(188, 116, 7, 0.977);
+}
+
+#menu h1 {
+    text-align: center;
+}
+
+#menu h4 {
+    color: #555;
+}
+
+#menu p {
+    color: #777;
+}
+
+
+/* reservation*/
+#reservation {
+    margin: 20px 0;
+    padding: 40px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#reservation  h1 {
+    text-align: center;
+}
+
+#reservation  h4 {
+    color: #555;
+}
+
+#reservation  p {
+    color: #777;
+}
+
+/* Contact Section */
+#contact {
+    background-color: #ffffff;
+    padding: 40px;
+    margin: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#contact h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#contact p {
+    color: #555;
+    margin: 10px 0;
+}
+
+#contact form input, 
+#contact form button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+#contact form button {
+    background-color: #555;
+    color: white;
+    cursor: pointer;
+    border: none;
+    font-weight: bold;
+}
+
+#contact form button:hover {
+    background-color: #333;
+}
+
+/* Footer */
+footer {
+    background-color: #f8f8f8;
+    padding: 20px;
+    text-align: center;
+    font-size: 14px;
+    color: #555;
+}
+
+footer a {
+    color: #555;
+    font-weight: bold;
+}
+
+footer a:hover {
+    color: #333;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .w3-col.m6, .w3-col.l6 {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    header h1 {
+        font-size: 20px;
+        padding: 5px 10px;
+    }
+
+    #menu h4 {
+        font-size: 18px;
+    }
+
+    #menu p {
+        font-size: 14px;
+    }
+}
+
+ /* Back to top */
+ .back-to-top {
+    bottom: 20px;
+    right: 20px;
+    display: block;
+    width: 200px;
+    height: 200px;
+    z-index: 1000;
+    cursor: pointer;
+    transition: opacity 0.3s;
+  }
+  
+  .back-to-top img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .back-to-top:hover {
+    opacity: 0.8;
+  }
+  
