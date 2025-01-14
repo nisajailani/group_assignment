@@ -1,0 +1,91 @@
+/* ANIMATION */
+
+.animated-heading {
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-align: center;
+  background-image: linear-gradient(90deg, black, red, black,yellow,red,pink));
+  background-size: 300%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  animation: gradient-slide 3s infinite linear;
+}
+
+/* Animated Subheading with Black and Red Gradient */
+.animated-heading {
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-align: center;
+  background-image: linear-gradient(90deg, red, black, red,yellow, red,pink));
+  background-size: 300%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  animation: gradient-slide 4s infinite linear;
+}
+
+/* Keyframe Animation for Gradient Slide */
+@keyframes gradient-slide {
+  0% {
+    background-position: 0%;
+  }
+  100% {
+    background-position: 100%;
+  }
+}
+.animated-heading {
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-align: center;
+  background-image: linear-gradient(90deg, black, red, black,yellow, red,pink));
+  background-size: 300%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  animation: gradient-slide 3s infinite linear;
+}
+.animated-heading {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+  background-image: linear-gradient(90deg, black, red, black,yellow,pink));
+  background-size: 300%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  animation: gradient-slide 3s infinite linear;
+}
+.animated-heading {
+font-size: 1.5rem;
+font-weight: bold;
+text-align: center;
+background-image: linear-gradient(90deg, black, red, black,yellow, red,pink));
+background-size: 300%;
+background-clip: text;
+-webkit-background-clip: text;
+color: transparent;
+animation: gradient-slide 3s infinite linear;
+}
+.animated-heading {
+font-size: 1.5rem;
+font-weight: bold;
+text-align: center;
+background-image: linear-gradient(90deg, black, red, black, yellow, red,pink));
+background-size: 300%;
+background-clip: text;
+-webkit-background-clip: text;
+color: transparent;
+animation: gradient-slide 3s infinite linear;
+}
+.animated-heading {
+font-size: 1.5rem;
+font-weight: bold;
+text-align: center;
+background-image: linear-gradient(90deg, black, red, black,yellow, red,pink);
+background-size: 300%;
+background-clip: text;
+-webkit-background-clip: text;
+color: transparent;
+animation: gradient-slide 3s infinite linear;
+}

@@ -1,0 +1,383 @@
+<html>
+<head>
+<title>TeaAmor Cafe</title>
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+<style>
+    body {font-family: "Times New Roman", Georgia, Serif;}
+    h1, h2, h3, h4, h5, h6 
+    {
+      font-family: "Playfair Display";
+      letter-spacing: 5px;
+    }
+
+    body
+    {
+      background-image: url('image/back\ paper\(1\).jpg'); /* Replace with your image path */
+      background-size: cover; /* Ensure the background covers the entire page */
+      background-position: center; /* Center the image */
+      background-attachment: fixed;
+    }
+
+    .quote-box {
+      display: inline-block; /* Makes the box wrap tightly around the content */
+      padding: 10px 10px; /* Adds minimal padding for a compact look */
+      background-color: #f4f4f4; /* Light grey background */
+      border-left: 5px solid #a17a4e; /* Accent color border */
+      border-radius: 5px; /* Slightly rounded corners */
+      font-style: italic;
+      color: #333; /* Dark text for contrast */
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+      text-align: left; /* Aligns the quote text to the left */
+    }
+
+  .quote-box h3 {
+      margin: 0 0 10px 0; /* Minimal margin above and below */
+      font-family: "Playfair Display", serif;
+      font-size: 1.5em; /* Smaller heading size */
+      color: #a17a4e; /* Accent color for the heading */
+    }
+
+  .quote-box blockquote {
+      margin: 0;
+      padding: 0;
+      font-family: "Times New Roman", serif;
+      font-size: 1.2em; /* Smaller font size for the quote */
+      line-height: 1.4;
+      color: #555; /* Lighter shade for the quote */
+    }
+
+  .quote-box blockquote p {
+      margin: 0;
+      padding: 0;
+    }
+
+    footer
+    {
+        margin-top: auto;
+        padding: 10px 0;
+        background-color: rgba(128, 125, 125, 0.833);
+        color: white;
+        width:100%;
+        text-align: center;
+        font-size: 3em;
+    }
+
+    .last-update {
+        font-size: 1em;
+        margin-top: 5px;
+    }
+
+    .w3-bar-item button {
+        padding: 10px 15px;
+        cursor: pointer;
+      }
+
+
+
+</style>
+
+</head>
+
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/style2.css">
+
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-padding w3-card" style="letter-spacing:4px;">
+    <a href="index.html" class="w3-bar-item w3-button" style="color: #7b4e1b;">Tea Amor Cafe</a>
+    <!-- Right-sided navbar links. Hide them on small screens -->
+    <div class="w3-right w3-hide-small">
+      <a href="#about" class="w3-bar-item w3-button">About</a>
+      <a href="#logo" class="w3-bar-item w3-button">Logo</a>
+      <a href="#organization-chart" class="w3-bar-item w3-button">Organization Chart</a>
+      <a href="#hours-location" class="w3-bar-item w3-button">Hours & Location</a>
+      <a href="#menu" class="w3-bar-item w3-button">Menu</a>
+      <a href="reservation.html" class="w3-bar-item w3-button">Reservation</a>
+      <a href="#contact" class="w3-bar-item w3-button">Contact</a>
+      
+    </div>
+  </div>
+</div>
+
+      <br>
+      <br>
+      <br>
+      <!-- Add Play Music Button -->
+      <button onclick="playMusic()" class="w3-bar-item w3-button" style="background-color: #7b4e1b; color: white; border-radius: 5px; margin-left: 10px;">
+        Play Music
+      </button>
+
+<!--Notification-->
+<script>
+  // This function will run as soon as the page loads
+  window.onload = function() {
+      alert("Click 'Tea Amor Cafe' on the left to return to home.");
+  };
+</script>
+
+<!-- Audio Element -->
+<audio id="background-music" loop>
+  <source src="audio/background music.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+
+<!-- Script to Play Music -->
+<script>
+  function playMusic() {
+    const audio = document.getElementById("background-music");
+    audio.play();
+    alert("Enjoy the background music!");
+  }
+</script>
+
+
+<!-- Page content -->
+<div class="w3-content" style="max-width:1100px">
+
+ 
+
+  <!-- About Section -->
+  <div class="w3-row w3-padding-64" id="about">
+    <div class="w3-col m6 w3-padding-large w3-hide-small">
+     <img src="image/cafe shop.jpg" class="w3-round w3-image w3-opacity-min" alt="Tea_amor_cafe" width="600" height="750">
+     <br><br>
+     <img src="image/flowerred.jpg" class="w3-round w3-image w3-opacity-min" alt="Tea" width="600" height="350">
+    </div>
+
+    <div class="w3-col m6 w3-padding-large">
+      <link rel="stylesheet" href="css/style2.css">
+      <h1 class="w3-center animated-heading"><b>About Us</b></h1><br>
+      <h5 class="w3-center animated-heading"><b>TeaAmor Café was launched in 2018</b></h5>
+      <p class="w3-large" style="text-align: justify;">Since its launch, it has received a lot of attention from the
+        entire community. This cafe is in Shah Alam, Selangor. This area is a hotspot area close to
+        employment buildings and a residential area that is the focus of families. It was originally a simple
+        cafe. In the beginning, our intention was to establish this cafe to introduce to the people the
+        privilege of tea in our cafe. For most people, they consider tea to be a common drink compared
+        to coffee. we want to change this perception. <i>TeaAmor Café</i> is a cup of tea that can be enjoyed
+        at any time. This can also be a fan of non-coffee lovers. TeaAmor Café provides a variety of 
+        teabased drinks that have their own uniqueness.
+         It can be enjoyed either cold or hot. With high quality
+        ingredients, as well as sophisticated teamakers, we want to provide quality drinks at reasonable
+        prices for everyone. With sales of 2 million cups sold since the opening of this cafe, we thank our
+        <b><i>Amore’</i></b> for this achievement. In this cafe we use<span class="w3-tag w3-light-grey">herbal</span> ingredients.</p>
+      <p class="w3-large w3-text-black w3-hide-medium" style="text-align: justify;">This company is based on trust in ensuring that all products run 
+        smoothly and are of good
+        quality and provide solid service to customers. In addition, prioritizing the welfare of employees
+        and the team to achieve the company's vision and mission with excellence. The quote of our
+        company is by <i>"Indulge in the art of relaxation, one sip at a time"</i>. We aim to provide uniqueness
+        and experience with every sip of our drinks and the taste of the snacks. Being surrounded by
+        friendly and kind staff, as well as a cozy and comfortable atmosphere, as if our customers are at
+        home and calm by just enjoying our drinks. TeaAmor Café focuses on tea first and foremost. We
+        offer over 30 different varieties of tea by experts and are made from the best tea leaves, combined
+        to suit the customer. The high and excellent standards of our foods will always guarantee
+        satisfaction through fresh and quality ingredients. </p>
+       
+    </div>
+    <div class="quote-box">
+      <p>
+          <b>Qoutes of the day:</b>
+          <blockquote>
+              <blockquote>"A cup of tea is a cup of peace."  </blockquote>
+          </blockquote>
+      </p>
+  </div>
+  </div>
+  
+  <hr>
+
+  <!-- Logo -->
+  <div class="w3-row w3-padding-64" id="logo">
+    <div class="w3-col l12 w3-padding-large" style="display: flex; align-items: center;">
+      <div style="flex: 1; padding-right: 10px;">
+        <h5 class="w3-center animated-heading"><big><b>Our Logo</b></big></h5>
+        <p class="w3-large w3-text-black w3-hide-medium" style="text-align: justify;">
+          This is our logo business. The green color of the background is a symbol for nature where
+          we want the customer to think that it is as a safe place. The tea cup is used to show the
+          main of our company where it symbolizes the tea in a cup. Also, our slogan is <i>“one sip at
+          a time”</i> as it says to tell the customer to take a moment to break from the busyness and
+          enjoy the moment. And lastly the name of our company TeaAmor café where the word tea
+          and Amor in one sentence to shows the community the loves for tea where Amor is in
+          Spanish that means love. So, we hope our customer loves our tea.
+        </p>
+      </div>
+      <div style="flex: 1; text-align: right;">
+        <img src="image/logo.jpg" alt="logo" style="width: 70%; border-radius: 10px;">
+      </div>
+    </div>
+  </div>
+
+  <hr>
+
+   <!-- org chart-->
+   <div class="w3-row w3-padding-64" id="organization-chart">
+    <div class="w3-col l12 w3-padding-large" style="display: flex; align-items: center;">
+      <div style="flex: 1; padding-right: 10px; text-align: center;">
+        <h5 class="w3-center animated-heading"><big><b>Organization Chart</b></big></h5>
+        <p class="w3-large w3-text-black w3-hide-medium" style="text-align: justify;">
+         
+
+     This organizational chart represents a structured hierarchy of the company, 
+     led by Nuratikah Safia binti Khairoel Ariffin as the Manager and Athirah Dania binti Anuar 
+     as the General Manager. The management team includes Nor Intan Natasya binti Mohd Shamri
+     and Quratun Nisa' binti Jailani overseeing key operational areas. The departments are
+     divided into HR, Finance, Marketing, Customer Experience, Operations, and Sales, 
+     with dedicated managers and staff like Ahmad Noah, Siti Aisyah, Ahmad Fayaz, 
+     Ahmad Ul-Haq, Ahmad Amir Zikrullah, Nur Aura Zendaya, Cahaya Rosa, and Ahmad Rais Juan,
+     ensuring smooth and effective operations across all functions.</p> 
+
+    <p style="text-align: left; color: #333;" >The founders:
+     <ul style="text-align: left;">
+      <li>Athirah Dania</li>
+      <li>Nuratikah Safia</li>
+      <li>Nor Intan Natasya</li>
+      <li>Quratun Nisa'</li>
+     </ul>
+        </p>
+
+      </div>
+      <div style="flex: 1; text-align: right;">
+        <img src="image/org chart.png" alt="org_chart" style="width: 95%; border-radius: 10px;">
+      </div>
+    </div>
+  </div>
+
+    <hr>
+
+    <div class="w3-row w3-padding-64" id="hours-location">
+      <div class="w3-col l12 w3-padding-large" style="display: flex; flex-direction: column; align-items: center;">
+        <div style="flex: 1; text-align: center;">
+          <h5 class="w3-center animated-heading"><big><b>Hours & Location</b></big></h5>
+          <p class="w3-large" style="text-align: center;">
+            <p style="color: #333;"><strong>Monday - Friday (10a.m - 9p.m)</strong></p>
+            <p style="color: #333;"><strong>Saturday - Sunday (11a.m - 10p.m)</strong></p>
+            <p style="color: #333;"><i>Closed every Wednesday</i></p>
+
+            <br>
+
+            <p class="w3-large" style="color: #7b4e1b;">Tea Amor's Branch:</p>
+            <ul style="list-style-position: inside; display: inline-block; text-align: left;">
+              <li>Shah Alam</li>
+              <li>Johor Bahru</li>
+              <li>Jitra</li>
+              <li>Kuala Terengganu</li>
+            </ul>
+          </p>
+        </div>
+    
+        <div align="center" style="margin-top: 20px;">
+          <!-- Image Map Generated by http://www.image-map.net/ -->
+          <img src="image/map-removebg-preview.jpg" usemap="#image-map">
+    
+          <map name="image-map">
+              <area target="_blank" alt="Shah Alam Branch" title="Shah Alam Branch" href="https://www.waze.com/live-map/directions/shah-alam-selangor-my?to=place.ChIJx70qk4tNzDERxZGwq4XgZW4" coords="163,288,217,336" shape="rect">
+              <area target="_blank" alt="Johor Bahru Branch" title="Johor Bahru Branch" href="https://www.waze.com/live-map/directions/johor-bahru-johor-my?to=place.ChIJJzpr08YS2jER9dSTtR2y9NU" coords="273,358,361,422" shape="rect">
+              <area target="_blank" alt="Jitra Branch" title="Jitra Branch" href="https://www.waze.com/live-map/directions/jitra-kedah-my?to=place.ChIJTyDf9DFYSzAR1zzn2dCAmnM" coords="124,124,163,191" shape="rect">
+              <area target="_blank" alt="Kuala Terengganu Branch" title="Kuala Terengganu Branch" href="https://www.waze.com/live-map/directions/kuala-terengganu-terengganu-my?to=place.ChIJL4Zul54JtzERkiQjy4XuwBs" coords="260,164,318,263" shape="rect">
+          </map>
+        </div>
+      </div>
+    </div>
+    
+    <hr>
+  
+<!-- Menu Section -->
+<div class="w3-row w3-padding-64" id="menu">
+  <div class="w3-col l6 w3-padding-large">
+    <h1 class="w3-center animated-heading"><b>Our Menu</b></h1><br>
+    
+    <ol class="w3-large w3-text-dark-grey">
+      <li><p><strong>Tea & Coffee</strong></p></li>
+      <li><p><strong>Special Drinks</strong></p></li>
+      <li><p><strong>Pastries and Cakes</strong></p></li>
+    </ol>
+    <p class="w3-text-grey">Explore our curated menu and click on the images to discover more delicious options!</p>
+    <p class="w3-text-grey">You can also request for other pastries and cakes for events by reachign us via phone or social media!</p>
+
+  </div>
+  
+  <div class="w3-col l6 w3-padding-16">
+    <a href="image/teamor-menu.jpg" class="w3-hover-shadow" target="_blank">
+      <img src="image/tea-coffee-menu.png" class="w3-round w3-image w3-hover-opacity" alt="Tea & Coffee Menu" style="width:100%">
+    </a>
+  </div>
+  
+  <div class="w3-col l6 w3-padding-16">
+    <a href="image/pastries-menu2.jpg" class="w3-hover-shadow" target="_blank">
+      <img src="image/pastries-menu.png" class="w3-round w3-image w3-hover-opacity" alt="Pastries & Cakes Menu" style="width:100%">
+    </a>
+  </div>
+  
+</div>
+
+
+  <hr>
+
+  <!-- Contact Section -->
+  <div class="w3-container w3-padding-64" id="contact">
+    <h1 class="animated-heading">Contacts</h1><br>
+    <p style="color: #333;">We offer variety of foods and drinks that offer many of choices based on customer request. Besides, we also provide a best seller drinks for a discount of our regular customer. We understand your needs and we will cater the food and drinks to satisfy the biggerst criteria of them all, both look and taste. Do not hesitate to contact us.</p>
+    <p style="color: #333;">You can also contact us by phone 011-34580206 or email teaamorcafe@gmail.com, or you can send us a message here:</p>
+    
+    <br clear="all">
+    <div align="center">
+      <a href="https://www.instagram.com/teaamorcafe_/profilecard/?igsh=MWQ2Zzc4azg4cG9lcw==" style="margin-right: 10px;">
+          <img src="image/ig-icon.png" style="width: 30px; height: 30px;" alt="Instagram"> @teaamorcafe_
+      </a>
+      <a href="mailto:teaamorcafe@gmail.com?subject=Hi TeaAmor!" style="margin-right: 10px;">
+        <img src="image/email-icon (2).png" style="width: 30px; height: 30px;" alt="Email"> teaamorcafe@gmail.com
+     </a>
+    </div>
+
+    <br clear="all">
+      <!-- Contact Form -->
+      <form action="mailto:teaamorcafe@gmail.com?subject=Customer Service" method="post" enctype="text/plain">
+          <label for="name">Your Name:</label><br>
+          <input type="text" id="name" name="name" required><br><br>
+          
+          <label for="email">Your Email:</label><br>
+          <input type="email" id="email" name="email" required><br><br>
+          
+          <label for="message">Message:</label><br>
+          <textarea id="message" name="message" rows="4" required></textarea><br><br>
+          
+          <input type="submit" value="Send Message">
+      </form>
+     
+  <div class="w3-padding-32" id="video">
+    <div class="w3-center">
+      <iframe width="100%" height="400" src="video/teamontage.mp4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+  </div>
+  
+<!-- End page content -->
+</div>
+
+<!-- Back to top -->
+ <a href="#top" class="back-to-top">
+  <img src="image/back-to-top2.png" alt="Back to Top" height="30%">
+</a>
+
+<!-- Footer -->
+<footer class="w3-center w3-brown w3-padding-30">
+ <p>&copy;2024 TeaAmor Cafe Website | All Rights Reserved.</p>
+ <p class="last-update">
+   Date Created: 7 January 2025  |  Last Updated: <span id="dateTime"></span> 
+ </p>
+
+<script>
+ function updateDateTime() {
+   const now = new Date();
+   const dateTimeElement = document.getElementById('dateTime');
+   dateTimeElement.innerText = now.toLocaleString(); // Display date and time in locale format
+ }
+ setInterval(updateDateTime, 1000); // Update every second
+ updateDateTime(); // Initial call to set the time immediately
+</script>
+
+</footer>
+
+</body>
+</html>
