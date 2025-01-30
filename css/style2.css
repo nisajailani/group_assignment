@@ -4,7 +4,7 @@
   font-size: 2.5rem;
   font-weight: bold;
   text-align: center;
-  background-image: linear-gradient(90deg, black, red, black,yellow,red,pink));
+  background-image: linear-gradient(90deg, black, red, black,yellow,red,pink);
   background-size: 300%;
   background-clip: text;
   -webkit-background-clip: text;
@@ -17,7 +17,7 @@
   font-size: 2.5rem;
   font-weight: bold;
   text-align: center;
-  background-image: linear-gradient(90deg, red, black, red,yellow, red,pink));
+  background-image: linear-gradient(90deg, red, black, red,yellow, red,pink);
   background-size: 300%;
   background-clip: text;
   -webkit-background-clip: text;
@@ -38,7 +38,7 @@
   font-size: 2.5rem;
   font-weight: bold;
   text-align: center;
-  background-image: linear-gradient(90deg, black, red, black,yellow, red,pink));
+  background-image: linear-gradient(90deg, black, red, black,yellow, red,pink);
   background-size: 300%;
   background-clip: text;
   -webkit-background-clip: text;
@@ -49,7 +49,7 @@
   font-size: 1.5rem;
   font-weight: bold;
   text-align: center;
-  background-image: linear-gradient(90deg, black, red, black,yellow,pink));
+  background-image: linear-gradient(90deg, black, red, black,yellow,pink);
   background-size: 300%;
   background-clip: text;
   -webkit-background-clip: text;
@@ -60,7 +60,7 @@
 font-size: 1.5rem;
 font-weight: bold;
 text-align: center;
-background-image: linear-gradient(90deg, black, red, black,yellow, red,pink));
+background-image: linear-gradient(90deg, black, red, black,yellow, red,pink);
 background-size: 300%;
 background-clip: text;
 -webkit-background-clip: text;
@@ -71,7 +71,7 @@ animation: gradient-slide 3s infinite linear;
 font-size: 1.5rem;
 font-weight: bold;
 text-align: center;
-background-image: linear-gradient(90deg, black, red, black, yellow, red,pink));
+background-image: linear-gradient(90deg, black, red, black, yellow, red,pink);
 background-size: 300%;
 background-clip: text;
 -webkit-background-clip: text;
